@@ -45,7 +45,7 @@ async function reloadClientWeather() {
 
 setInterval(() => {
   reloadClientWeather();
-}, 30000);
+}, 300000);
 
 app.get('/weather', weatherHandler);
 
